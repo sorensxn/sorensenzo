@@ -1,0 +1,47 @@
+
+### 1. Python
+- **Interpretada**: Python é uma linguagem interpretada, o que significa que o código é executado linha por linha.
+- **Tipagem Dinâmica**: Não é necessário declarar o tipo de variável; ele é determinado automaticamente.
+- **Simplicidade**: A sintaxe de Python é conhecida por ser clara e concisa, facilitando a leitura e a escrita de código.
+
+**Código Python**:
+python
+print("Hello, World!")
+```
+
+### 2. JavaScript
+- **Interpretada**: Como Python, JavaScript também é uma linguagem interpretada.
+- **Tipagem Dinâmica**: As variáveis em JavaScript também não precisam ter seu tipo declarado explicitamente.
+- **Foco em Web**: JavaScript é amplamente utilizado para desenvolvimento web, sendo executado diretamente no navegador.
+
+**Código JavaScript**:
+javascript
+console.log("Hello, World!");
+
+
+### 3. C++
+- **Compilada**: Ao contrário de Python e JavaScript, C++ é uma linguagem compilada, o que significa que o código-fonte precisa ser convertido em um executável antes de ser executado.
+- **Tipagem Estática**: Em C++, o tipo de cada variável deve ser declarado explicitamente.
+- **Performance**: C++ é conhecida por ser uma linguagem de alto desempenho, amplamente usada em sistemas embarcados, jogos e aplicações onde a performance é crítica.
+
+**Código C++**:
+cpp
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+
+
+### Execução dos Códigos
+
+- **Python**: Este código pode ser executado em qualquer ambiente Python, como o terminal ou uma IDE. Eu posso executá-lo diretamente aqui.
+
+- **JavaScript**: Esse código pode ser executado em um console de navegador (F12 em navegadores como Chrome ou Firefox) ou em um ambiente Node.js.
+
+- **C++**: Para executar esse código, é necessário compilar o arquivo usando um compilador C++, como `g++`. O comando seria algo como:
+  bash
+  g++ hello.cpp -o hello
+  ./hello
+  
