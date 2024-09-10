@@ -1,0 +1,15 @@
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+
+if __name__ == "__main__":
+    arr = [2149, 1939, 32, 2318, 213, 11, 90]
+    print("Array ordenado:", bubble_sort(arr))
+
+Array ordenado: [11, 32, 90, 213, 1939, 2149, 2318]
+
+=== Code Execution Successful ===
