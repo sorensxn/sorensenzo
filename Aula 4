@@ -7,10 +7,9 @@ for i in range(1, 6):
 4
 5
 
-Insira uma nota
 nota = float(input("Digite a nota (0 a 10): "))
 
-# Estrutura de tomada de decisão
+Estrutura de tomada de decisão
 if nota >= 9:
     print("Classificação: A")
 elif nota >= 7:
