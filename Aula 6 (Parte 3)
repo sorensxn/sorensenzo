@@ -1,0 +1,15 @@
+def lista_de_compras():
+    itens = input("batata , pão , alface")
+    
+    lista = [item.strip() for item in itens.split(",")]
+    
+    for i, item in enumerate(lista, start=1):
+        print(f"Item {i}: {item}")
+
+# Chama a função
+lista_de_compras()
+
+batata , pão , alface
+
+Session Killed due to Timeout.
+Press Enter to exit terminal
