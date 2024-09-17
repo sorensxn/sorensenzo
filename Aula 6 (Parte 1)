@@ -1,11 +1,10 @@
 def imprimir_informacoes(nome, idade, cidade):
     print('Nome:', nome, '- Idade:', idade, '- Cidade:', cidade, sep=' ', end='!\n')
 
-# Exemplo de uso da função:
 imprimir_informacoes('Alice', 25, 'São Paulo')
 
 Nome: Alice - Idade: 25 - Cidade: São Paulo!
 
-
 ** Process exited - Return Code: 0 **
 Press Enter to exit terminal
+ 
