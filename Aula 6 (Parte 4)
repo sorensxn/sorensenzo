@@ -1,0 +1,8 @@
+def converter_celsius_para_fahrenheit():
+    celsius = float(input("30"))
+    
+    fahrenheit = (celsius * 9/5) + 32
+    
+        print(f"{celsius}°C equivalem a {fahrenheit}°F")
+
+converter_celsius_para_fahrenheit()
