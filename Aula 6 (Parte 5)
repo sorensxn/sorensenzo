@@ -1,0 +1,18 @@
+def coletar_nomes():
+    nomes = []  # Lista para armazenar os nomes
+    
+    while True:
+        nome = input("Jadilson , Cleomar , Gordovaldo")
+        
+        if nome.lower() == 'sair':
+            break
+        
+        nomes.append(nome)
+    
+    print("\nNomes digitados:")
+    for nome in nomes:
+        print(nome)
+
+coletar_nomes()
+
+Jadilson , Cleomar , Gordovaldo
